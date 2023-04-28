@@ -10,7 +10,7 @@ export const Hero = ({ className }: { className?: string }) => {
       )}
     >
       <Image
-        src="/images/hero-burger.webp"
+        src="/images/hero-burger.png" // PNG because Turbopack doesn't support WebP!?
         alt="Juicy burger"
         height={500}
         width={550}
@@ -19,7 +19,7 @@ export const Hero = ({ className }: { className?: string }) => {
         className={cn(
           "flex flex-col pl-12 pr-6 pt-16 text-king-white",
           "3xl:pr-24",
-          "4xl:pr-56",
+          "4xl:pr-56"
         )}
       >
         <h1 className="text-[5rem] font-bold">Flame grilling since 1954</h1>

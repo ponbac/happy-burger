@@ -7,7 +7,7 @@ export const KingFinder = () => {
     <div className="flex h-[32rem] w-full flex-row">
       <div className="relative flex w-1/2 flex-col items-center justify-center overflow-hidden bg-king-red">
         <Image
-          src="/images/finder-ice-cream.webp"
+          src="/images/finder-ice-cream.png" // PNG because Turbopack doesn't support WebP!?
           width={350}
           height={350}
           alt="Ice cream"
