@@ -73,7 +73,7 @@ const SocialIcon = ({
       )}
     >
       <Image
-        src={`/icons/${type.toLowerCase()}.png`}
+        src={`/icons/${type.toLowerCase()}.svg`}
         alt=""
         height={20}
         width={20}
