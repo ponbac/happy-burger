@@ -1,16 +1,13 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 
-interface HeaderProps
-  extends Omit<React.HTMLAttributes<HTMLDivElement>, "children"> {}
-export const NavBar = ({ className, ...props }: HeaderProps) => {
+export const NavBar = ({ className }: { className?: string }) => {
   return (
     <header
       className={cn(
         "flex flex-row items-center justify-between gap-4 py-4 xl:justify-center xl:gap-16",
         className
       )}
-      {...props}
     >
       {/* BK-logo */}
       <Image
