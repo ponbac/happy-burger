@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-import { LocationInput } from ".";
+import LocationInput from "./location-input";
 
 export const KingFinder = () => {
   return (

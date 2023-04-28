@@ -1,4 +1,6 @@
-import { AuthBar, Divider, NavBar } from ".";
+import { AuthBar } from "./auth-bar";
+import { Divider } from "./divider";
+import { NavBar } from "./nav-bar";
 
 export const Header = () => {
   return (

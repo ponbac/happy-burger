@@ -1,4 +1,4 @@
-import { TailwindIndicator } from "@/components";
+import { TailwindIndicator } from "@/components/tw-indicator";
 import "./globals.css";
 import localFont from "next/font/local";
 

@@ -3,7 +3,8 @@
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 
-export const LocationInput = ({ className }: { className?: string }) => {
+// TODO: Why is Turbo mad!?
+export default function LocationInput({ className }: { className?: string }) {
   const [location, setLocation] = useState("");
 
   return (
@@ -44,7 +45,7 @@ export const LocationInput = ({ className }: { className?: string }) => {
       </div>
     </div>
   );
-};
+}
 
 const TargetIcon = ({ className }: { className?: string }) => {
   return (
