@@ -5,3 +5,5 @@ export * from "./divider";
 export * from "./auth-bar";
 export * from "./nav-bar";
 export * from "./hero";
+export * from "./king-finder";
+export * from "./location-input";
