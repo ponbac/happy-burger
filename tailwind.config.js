@@ -19,7 +19,11 @@ module.exports = {
         "king-red": "#D62201",
         "king-white": "#FEFEFF",
         "king-beige": "#F5EBDC",
-        "king-orange": "#FEAB02"
+        "king-orange": "#FEAB02",
+      },
+      screens: {
+        "3xl": "1900px",
+        "4xl": "2100px",
       },
     },
   },

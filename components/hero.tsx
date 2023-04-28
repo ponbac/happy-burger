@@ -15,7 +15,13 @@ export const Hero = ({ className }: { className?: string }) => {
         height={500}
         width={550}
       />
-      <div className="flex flex-col pl-12 pr-6 pt-16 text-king-white 2xl:pr-16">
+      <div
+        className={cn(
+          "flex flex-col pl-12 pr-6 pt-16 text-king-white",
+          "3xl:pr-24",
+          "4xl:pr-56",
+        )}
+      >
         <h1 className="text-[5rem] font-bold">Flame grilling since 1954</h1>
         <p className="mt-4 w-[30rem] font-regular text-xl">
           Få tillgång till exklusiva erbjudanden, upptäck vår meny, beställ

@@ -7,3 +7,4 @@ export * from "./nav-bar";
 export * from "./hero";
 export * from "./king-finder";
 export * from "./location-input";
+export * from "./favorites";
