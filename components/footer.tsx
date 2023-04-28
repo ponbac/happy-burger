@@ -30,11 +30,11 @@ export const Footer = () => {
           </div>
         </div>
         <div className="flex flex-row gap-8">
-          <FooterLink petite>Allergiinformation</FooterLink>
-          <FooterLink petite>Näringsinformation</FooterLink>
-          <FooterLink petite>Användarvillkor</FooterLink>
-          <FooterLink petite>Press</FooterLink>
-          <FooterLink petite>Kontakt</FooterLink>
+          <FooterLink light>Allergiinformation</FooterLink>
+          <FooterLink light>Näringsinformation</FooterLink>
+          <FooterLink light>Användarvillkor</FooterLink>
+          <FooterLink light>Press</FooterLink>
+          <FooterLink light>Kontakt</FooterLink>
         </div>
       </div>
     </footer>
@@ -43,15 +43,15 @@ export const Footer = () => {
 
 const FooterLink = ({
   children,
-  petite,
+  light: light,
 }: {
   children: ReactNode;
-  petite?: boolean;
+  light?: boolean;
 }) => {
   return (
     <a
       className={cn("text-king-brown transition-colors hover:text-king-red", {
-        "font-regular text-sm text-king-brown/50": petite,
+        "font-regular text-sm text-king-brown/50": light,
       })}
       href="#"
     >
