@@ -29,6 +29,9 @@ const flameSans = localFont({
 export const metadata = {
   title: "Burger King Sverige",
   description: "Crafted by @ponbac's bony hands!",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -41,8 +44,10 @@ export default function RootLayout({
       lang="en"
       className={`bg-king-white ${flame.variable} ${flameSans.variable}`}
     >
-      <body className="min-h-screen">{children}</body>
-      <TailwindIndicator />
+      <body className="min-h-screen">
+        {children}
+        <TailwindIndicator />
+      </body>
     </html>
   );
 }
